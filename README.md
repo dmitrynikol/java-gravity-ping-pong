@@ -11,7 +11,7 @@ all from one library. LWJGL provides it’s own keyboard handling objects, so we d
 We can simple using [Keyboard](http://lwjgl.org/javadoc/org/lwjgl/input/Keyboard.html) class. Drawing a sprite on the screen is identical to the JOGL. It’s very easy.
 
 ### 2) What is OpenAL?
-OpenAL (Open Audio Library) is a library for creation of a virtual world of sound. It easily combined with OpenGL 3D 
+OpenAL (Open Audio Library) is a library for creation of a virtual world of sound. It easily combined with [OpenGL](http://www.opengl.org/) 3D 
 world and can very well be used to create games. The OpenAL API is designed to be cross-platform and easy to use.
      For more information, see:
 - [LWJGL Wiki](http://lwjgl.org/wiki/index.php)
@@ -27,14 +27,16 @@ rackets(in the game it's simple rectangles with different colors). Points are sc
 In my version of this game if player(from the left side) fails to return the ball, the surface is turning clockwise or vice versa 
 by 10 degrees(it's a random rotation) and player rectangle is reduced, but the opponent rectangle is increased. 
 But if the opponent misses the ball, the platform is rotated by 10 degrees and tends to the horizontal position. 
-In the title of the window you can see current frame rate(FPS) of the game and the game score. That's it :)
+In the title of the window you can see current frame rate([FPS](http://en.wikipedia.org/wiki/Frame_rate)) of the game and the game score. That's it :)
+
 Controls
  - Esc - quit game
  - Enter - enable/disable fullscreen mode
  - Arrow keys (up, down, left, right) or (W, S, A, D) - spaceship movement
+ 
 Audio
 The game has a background music and the sound of the collision. The magic of the sound was done using OpenAL.
-Here you can find the package with implementation of the sound.
+Here you can find the package with [implementation of the sound](https://github.com/dmitrynikol/java-gravity-ping-pong/tree/master/src/com/dmitrynikol/pingpong/game/sound).
 
 ### 4) My ideas how to improve the game? 
 - Add Sprite/Texture to the game
