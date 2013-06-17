@@ -48,4 +48,4 @@ Here you can find the package with [implementation of the sound](https://github.
 - Additional barriers during gameplay
 - Ability to fire at enemy objects
 
-We are done. It's a simple example how to build a game with OpenGL. Here is the link to gravity ping pong game. Have fun with the code! 
+We are done. It's a simple example how to build a game with OpenGL. Have fun with the code! 
