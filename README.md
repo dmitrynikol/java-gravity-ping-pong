@@ -1,7 +1,7 @@
 ### Welcome to Gravity ping-pong game
 
 This is an example game that recreates the classic game ping pong but with my personal vision. I called it gravity ping pong. 
-The game uses [LWJGL](http://lwjgl.org/)(for graphics) and OpenAL(for sound effects) technology. Let's take a closer look at them.
+The game uses [LWJGL](http://lwjgl.org/)(for graphics) and [OpenAL](http://connect.creativelabs.com/openal/default.aspx)(for sound effects) technology. Let's take a closer look at them.
 
 ### 1) What is LWJGL?
 [LWJGL](http://lwjgl.org/) (Lightweight Java Game Library) provides developers access to different high performance crossplatform libraries. 
@@ -11,7 +11,7 @@ all from one library. LWJGL provides it’s own keyboard handling objects, so we d
 We can simple using [Keyboard](http://lwjgl.org/javadoc/org/lwjgl/input/Keyboard.html) class. Drawing a sprite on the screen is identical to the JOGL. It’s very easy.
 
 ### 2) What is OpenAL?
-OpenAL (Open Audio Library) is a library for creation of a virtual world of sound. It easily combined with [OpenGL](http://www.opengl.org/) 3D 
+[OpenAL](http://connect.creativelabs.com/openal/default.aspx) (Open Audio Library) is a library for creation of a virtual world of sound. It easily combined with [OpenGL](http://www.opengl.org/) 3D 
 world and can very well be used to create games. The OpenAL API is designed to be cross-platform and easy to use.
      For more information, see:
 - [LWJGL Wiki](http://lwjgl.org/wiki/index.php)
@@ -35,6 +35,7 @@ Controls
  - Arrow keys (up, down, left, right) or (W, S, A, D) - spaceship movement
  
 Audio
+
 The game has a background music and the sound of the collision. The magic of the sound was done using OpenAL.
 Here you can find the package with [implementation of the sound](https://github.com/dmitrynikol/java-gravity-ping-pong/tree/master/src/com/dmitrynikol/pingpong/game/sound).
 
@@ -46,4 +47,5 @@ Here you can find the package with [implementation of the sound](https://github.
 - Powerups or bonuses that will allow to add extra abilities to the player for some time as a game mechanism, they can help in difficult situations or add some dynamic scene to the gameplay
 - Additional barriers during gameplay
 - Ability to fire at enemy objects
+
 We are done. It's a simple example how to build a game with OpenGL. Here is the link to gravity ping pong game. Have fun with the code! 
